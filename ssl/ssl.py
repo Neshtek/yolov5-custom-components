@@ -5,11 +5,11 @@ import sys
 import os
 import datetime
 
-model = torch.hub.load("ultralytics/yolov5", "custom", path="weights/best.pt")
+model = torch.hub.load("ultralytics/yolov5", "custom", path="../yolov5/yolov5s.pt")
 
 print("Model loaded")
 
-video_path = 'data.mp4'
+video_path = 0
 
 camera = cv2.VideoCapture(video_path)
 # create named windows for input and output frames
