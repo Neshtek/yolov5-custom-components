@@ -1,1 +1,5 @@
-thermal-panel-detection.v1-school-panels.yolov5pytorch/
+# dataset files
+data/
+
+# virtual environment
+venv/
