@@ -32,3 +32,5 @@ fi
 name=$directory"-ssl"
 python ../yolov5-custom-components/dataset-creation.py -d $directory -s $source -c $count
 python ../yolov5/detect.py --source $directory --weights $weights --device 0 --name $name --save-txt
+
+# AFTER THIS UPLOAD RESULTS TO ROBOFLOW FOR MANUAL SORTING
